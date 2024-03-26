@@ -4,6 +4,6 @@
 #include <vector>
 #include <cstdint>
 
-::std::vector<uintptr_t> example_addrs();
+::std::vector<uintptr_t> example_addrs(size_t data_scale = 100000);
 
 #endif
